@@ -67,11 +67,11 @@ public class AdminEditSongController extends HttpServlet {
 				response.sendRedirect(request.getContextPath() + "/admin/songs?msg=2");
 				return;
 			} else {
-				response.sendRedirect(request.getContextPath() + "/admin/song/edit?msg=0&id="+id+"");
+				response.sendRedirect(request.getContextPath() + "/admin/song/edit?msg=0&id=" + id + "");
 				return;
 			}
 		} else {
-			response.sendRedirect(request.getContextPath()+"/admin/song/edit?msg=2&id="+id+"");
+			response.sendRedirect(request.getContextPath() + "/admin/song/edit?msg=2&id=" + id + "");
 			return;
 		}
 

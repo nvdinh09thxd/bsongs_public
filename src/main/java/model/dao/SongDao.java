@@ -66,8 +66,8 @@ public class SongDao {
 		try {
 			pst = conn.prepareStatement(sql);
 			pst.setString(1, song.getName());
-			pst.setString(2, song.getPreview_text());
-			pst.setString(3, song.getDetail_text());
+			pst.setString(2, song.getPreviewText());
+			pst.setString(3, song.getDetailText());
 			pst.setString(4, song.getPicture());
 			pst.setInt(5, song.getItemCat().getIdCat());
 			result = pst.executeUpdate();
@@ -86,8 +86,8 @@ public class SongDao {
 		try {
 			pst = conn.prepareStatement(sql);
 			pst.setString(1, song.getName());
-			pst.setString(2, song.getPreview_text());
-			pst.setString(3, song.getDetail_text());
+			pst.setString(2, song.getPreviewText());
+			pst.setString(3, song.getDetailText());
 			pst.setString(4, song.getPicture());
 			pst.setInt(5, song.getItemCat().getIdCat());
 			pst.setInt(6, song.getId());

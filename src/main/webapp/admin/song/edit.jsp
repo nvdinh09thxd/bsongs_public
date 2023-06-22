@@ -41,8 +41,8 @@
 										if(item!=null){
 											int id = item.getId();
 											String name = item.getName();
-											String preview = item.getPreview_text();
-											String detail = item.getDetail_text();
+											String preview = item.getPreviewText();
+											String detail = item.getDetailText();
 											int cat_id = item.getItemCat().getIdCat();
 								%>
 								<form role="form" method="post" enctype="multipart/form-data"

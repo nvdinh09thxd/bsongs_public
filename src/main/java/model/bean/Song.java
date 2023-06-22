@@ -5,9 +5,9 @@ import java.sql.Timestamp;
 public class Song {
 	int id;
 	String name;
-	String preview_text;
-	String detail_text;
-	Timestamp date_create;
+	String previewText;
+	String detailText;
+	Timestamp dateCreate;
 	String picture;
 	int counter;
 	Category itemCat;
@@ -28,28 +28,28 @@ public class Song {
 		this.name = name;
 	}
 
-	public String getPreview_text() {
-		return preview_text;
+	public String getPreviewText() {
+		return previewText;
 	}
 
-	public void setPreview_text(String preview_text) {
-		this.preview_text = preview_text;
+	public void setPreviewText(String previewText) {
+		this.previewText = previewText;
 	}
 
-	public String getDetail_text() {
-		return detail_text;
+	public String getDetailText() {
+		return detailText;
 	}
 
-	public void setDetail_text(String detail_text) {
-		this.detail_text = detail_text;
+	public void setDetailText(String detailText) {
+		this.detailText = detailText;
 	}
 
-	public Timestamp getDate_create() {
-		return date_create;
+	public Timestamp getDateCreate() {
+		return dateCreate;
 	}
 
-	public void setDate_create(Timestamp date_create) {
-		this.date_create = date_create;
+	public void setDateCreate(Timestamp dateCreate) {
+		this.dateCreate = dateCreate;
 	}
 
 	public String getPicture() {
@@ -76,14 +76,14 @@ public class Song {
 		this.itemCat = itemCat;
 	}
 
-	public Song(int id, String name, String preview_text, String detail_text, Timestamp date_create, String picture,
+	public Song(int id, String name, String previewText, String detailText, Timestamp dateCreate, String picture,
 			int counter, Category itemCat) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.preview_text = preview_text;
-		this.detail_text = detail_text;
-		this.date_create = date_create;
+		this.previewText = previewText;
+		this.detailText = detailText;
+		this.dateCreate = dateCreate;
 		this.picture = picture;
 		this.counter = counter;
 		this.itemCat = itemCat;
